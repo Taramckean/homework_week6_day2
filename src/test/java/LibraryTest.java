@@ -10,7 +10,7 @@ public class LibraryTest {
         @Before
         public void setup(){
             library = new Library(10);
-            book = new Book("The Great Gatsby");
+            book = new Book("The Great Gatsby", "fiction");
         }
 
         @Test

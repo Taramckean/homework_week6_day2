@@ -9,11 +9,16 @@ public class BookTest {
 
     @Before
     public void setup(){
-        book = new Book("The Great Gatsby");
+        book = new Book("The Great Gatsby", "fiction");
     }
 
     @Test
     public void bookHasName(){
         assertEquals("The Great Gatsby", book.getName());
+    }
+
+    @Test
+    public void bookHasGenre() {
+        assertEquals("fiction", book.getGenre());
     }
 }

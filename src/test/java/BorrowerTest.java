@@ -12,7 +12,7 @@ public class BorrowerTest {
     public void setup(){
         borrower = new Borrower();
         library = new Library(10);
-        book = new Book("The Great Gatsby");
+        book = new Book("The Great Gatsby", "fiction");
     }
 
     @Test
